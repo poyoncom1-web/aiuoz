@@ -1,0 +1,37 @@
+{
+  "name": "ai-chatbot",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@ai-sdk/groq": "^1.2.9",
+    "@ai-sdk/react": "^1.2.12",
+    "@heroicons/react": "^2.2.0",
+    "ai": "^4.3.16",
+    "framer-motion": "^12.23.25",
+    "groq-sdk": "^0.37.0",
+    "next": "16.0.5",
+    "openai": "^6.9.1",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-hot-toast": "^2.6.0",
+    "react-tsparticles": "^2.12.2",
+    "tsparticles-engine": "^2.12.0",
+    "tsparticles-slim": "^2.12.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.5",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
